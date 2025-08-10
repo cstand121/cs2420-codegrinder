@@ -1,0 +1,57 @@
+This directory contains the what you need to make assignments and coding drills for CS 1030
+
+# Instructions for making assignments.
+You will need to run new_problem.sh with the following parameters
+usage: new.sh <cs1030-assignments> <problemname> <basename>
+
+Sample:
+```
+
+```
+### Step 2 - After the problem is completed
+For every problem you will also need to copy the <cs1030-template.cfg>.
+This will just be a problem.
+
+# Instructions for making coding drills
+
+### Step 1
+You will need to run new_problem_set.sh with the following parameters
+usage: new.sh <cs1030-debugs> <problemsetname> <problemname> <basename>
+
+Sample:
+```
+./new_problem_set.sh cs1030-debugs cs1030-mod4-debug cs1030-04-01-fix_indentation fix_indentation
+```
+### Step 2 - Starter
+Put starter code in the starter file
+
+### Step 3 - Doc
+Sample Doc file
+            # 4.2) Indentation with if-else
+
+            This code should ask the user for their name and if their name comes before 'M' in 
+            the dictionary then print 'Hello name' otherwise print 'Goodbye name'. 
+
+            ### Fix the following syntax errors
+            - Indentation 
+
+### Step 4 - tests
+1. Copy asttest.py to the test directory
+2. Copy the solution code to the test directory
+3. Put in the test code
+    a. If there is input, use Tim's helper function: input_helper.py
+
+
+### Step 5 - problem.cfg file
+For every problem you will also need to copy the <cs1030-problem-template.cfg>.
+This will just be a problem.
+Example:
+cp ~/cs1030-codegrinder/cs1030-template.cfg .
+
+### Step 6 - grind create
+If you are brave, run ```grind create``` to create the problem set on codegrinder
+
+### Step 7 - problemset.cfg file
+Setup: copy the <cs1030-problemset-template.cfg> to the problemset directory. 
+            Example cs1030-debugs/cs1030-mod4-debug
+1. Add the completed problem to the problem set (Do this by directory)
